@@ -4,8 +4,11 @@ export default {
   async registerCoach(context, payload) {
     const userId = context.rootGetters.userId;
 
+    const token = context.rootGetters.token;
+
     const response = await axios.put(
-      `https://vue-http-demo-9e966-default-rtdb.europe-west1.firebasedatabase.app/coaches/${userId}.json`,
+      `https://vue-http-demo-9e966-default-rtdb.europe-west1.firebasedatabase.app/coaches/${userId}.json?auth=` +
+        token,
       {
         firstName: payload.first,
         lastName: payload.last,
