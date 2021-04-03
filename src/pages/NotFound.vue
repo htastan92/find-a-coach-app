@@ -9,9 +9,3 @@
     </base-card>
   </section>
 </template>
-<script>
-import BaseCard from '../components/ui/BaseCard';
-export default {
-  components: { BaseCard }
-};
-</script>

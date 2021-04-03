@@ -19,9 +19,7 @@
   </div>
 </template>
 <script>
-import BaseButton from '../../components/ui/BaseButton';
 export default {
-  components: { BaseButton },
   data() {
     return {
       email: '',

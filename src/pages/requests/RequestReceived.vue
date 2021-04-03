@@ -27,12 +27,7 @@
 </template>
 
 <script>
-import BaseCard from '../../components/ui/BaseCard';
-import RequestItem from '../../components/requests/RequestItem';
-import BaseDialog from '../../components/ui/BaseDialog';
-import BaseSpinner from '../../components/ui/BaseSpinner';
 export default {
-  components: { BaseSpinner, BaseDialog, RequestItem, BaseCard },
   data() {
     return { isLoading: false, error: null };
   },

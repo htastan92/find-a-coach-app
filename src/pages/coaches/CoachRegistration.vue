@@ -10,9 +10,9 @@
 </template>
 <script>
 import CoachForm from '../../components/coaches/CoachForm';
-import BaseCard from '../../components/ui/BaseCard';
+
 export default {
-  components: { BaseCard, CoachForm },
+  components: { CoachForm },
 
   methods: {
     saveData(data) {

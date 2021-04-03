@@ -46,18 +46,11 @@
 
 <script>
 import CoachItem from '../../components/coaches/CoachItem';
-import BaseCard from '../../components/ui/BaseCard';
-import BaseButton from '../../components/ui/BaseButton';
 import CoachFilter from '../../components/coaches/CoachFilter';
-import BaseSpinner from '../../components/ui/BaseSpinner';
-import BaseDialog from '../../components/ui/BaseDialog';
+
 export default {
   components: {
-    BaseDialog,
-    BaseSpinner,
     CoachFilter,
-    BaseButton,
-    BaseCard,
     CoachItem
   },
   data() {

@@ -30,12 +30,7 @@
 </template>
 
 <script>
-import BaseButton from '../../components/ui/BaseButton';
-import BaseCard from '../../components/ui/BaseCard';
-import BaseDialog from '../../components/ui/BaseDialog';
-import BaseSpinner from '../../components/ui/BaseSpinner';
 export default {
-  components: { BaseSpinner, BaseDialog, BaseCard, BaseButton },
   data() {
     return {
       email: '',
